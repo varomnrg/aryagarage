@@ -1,0 +1,30 @@
+#map-container-google-1 {
+    min-height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (max-width: 992px) {
+    .text-bg a {
+        font-size: 11px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: fit-content;
+    }
+    .work_text h3 {
+        font-size: 14px;
+    }
+    #map-container-google-1 {
+        min-height: 0;
+    }
+    ul.location_icon li {
+        display: inline-flex;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .footer .titlepage {
+        text-align: center;
+        padding-bottom: 0px;
+    }
+}
